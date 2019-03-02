@@ -10,5 +10,5 @@ if __name__ == "__main__":
         for day in range(1, 8):
             examined_day = datetime.datetime(current_year, month, day)
             if examined_day.isoweekday() == 1:
-                print '/remind {} caffedi on {} {}'.format(CHANNEL_OR_USERNAME, examined_day.strftime("%B"), examined_day.day)
+                print('/remind {} caffedi on {} {}'.format(CHANNEL_OR_USERNAME, examined_day.strftime("%B"), examined_day.day))
                 break
